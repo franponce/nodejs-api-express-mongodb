@@ -45,3 +45,29 @@ console.log(edad6);
 let edad7= years.map(el => 2021 - el);
 console.log(edad7);
 
+// Funciones CallBack
+
+// Nos permite recibir otra función como parámetro
+
+function Mensaje(callback){
+    console.log("Mensaje antes de la llamada callback.");
+}
+
+function Saludo(){
+    console.log("Saludo después de la llamada al callback");
+}
+
+Mensaje(Saludo);
+
+// Otro ejemplo:
+
+function Sumar(num1, num2, callback){
+    let resultado = num1 + num2;
+    callback(resultado);
+}
+
+function Resultado(res){
+    console.log(res);
+}
+
+Sumar(5, 8, Resultado);
