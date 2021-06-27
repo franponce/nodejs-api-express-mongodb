@@ -12,3 +12,8 @@ A menudo el uso más común es la cración de servicios para el back-end como:
 
 API (Application Programming Interface).
 
+Arquitectura de Node:
+
+Código JS - JS Engine - Código máquina. 
+
+
