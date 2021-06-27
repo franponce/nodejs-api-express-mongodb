@@ -1,2 +1,6 @@
-console.log("Hola mundo");
+function saludo(nombre){
+    console.log("Hola " + nombre);
+}
+
+saludo("Franco");
 
